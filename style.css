@@ -2,6 +2,19 @@ body {
     margin: 0;
     font-family:Arial, Helvetica, sans-serif;
     background-color: cadetblue;
+    text-align:center;
+}
+h1 {
+    font-size: 100px;
+    background-color: black;
+}
+p {
+    font-size: 80px;
+    background-color: black;
+}
+.btn {
+    font-size: 50px;
+    background-color: red;
 }
 .search-bar {
 padding: 10px;
