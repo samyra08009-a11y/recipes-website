@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Recipe Finder </title>
+        <link rel= "stylesheets" href= "style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Find a Recipe</h1>
+            <a href="index.html" class= "back-btn">BACK</a>
+        </header>
+        <div class="search-bar" id= "search">
+            <input type="text" id="recipe-name" placeholder="Enter an ingredient">
+            <button onclick="searchButton()"> find </button>
+        </div>
+        <div class= "recipe-finder" id= "recipe-grid"></div>
+        <div class= "popup" id= "hide-popup">
+            <div id="pop-up">
+                <span class="close-btn" onclick="closepopup()"> x </span>
+                <img id="popup-img" src="">
+            </div>
+        </div>
+    </body>
+</html>
