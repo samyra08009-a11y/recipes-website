@@ -63,7 +63,7 @@ header {
     align-items: center;
     position: sticky;
 }
-.recipe-grid {
+#recipe-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 20px;
@@ -99,6 +99,6 @@ header {
     font-size: 30px;
     color: white;
 }
-.recipe-page {
+#recipe-page {
     background-image: url(https://cdn.pixabay.com/photo/2024/11/17/12/46/flower-9203759_1280.png);
 }
