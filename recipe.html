@@ -12,15 +12,18 @@
             <a href="index.html" class= "back-btn">BACK</a>
         </header>
         <div class="search-bar" id= "search">
-            <input type="text" id="recipe-name" placeholder="Enter an ingredient">
+            <input type="text" id="recipe-name" placeholder="Enter an ingredient"/>
             <button onclick="searchButton()"> find </button>
         </div>
         <div class= "recipe-finder" id= "recipe-grid"></div>
-        <div class= "popup" id= "hide-popup">
-            <div id="pop-up">
-                <span class="close-btn" onclick="closepopup()"> x </span>
-                <img id="popup-img" src="">
+        <div class= "popup" id= "popup-box">
+            <div class="pop-up">
+                <span class="close-btn" id ="popup-close"> x </span>
+                <img id="popup-img" src="" alt=""Recipe Image"/>
+                <p id="popup-title"></p>
+            <p id="popup-instructions"></p>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>

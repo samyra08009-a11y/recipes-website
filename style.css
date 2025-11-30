@@ -29,7 +29,9 @@ title{
 }
 .search-bar {
 padding: 10px;
-width:250px;
+gap: 8px;
+display: flex;
+justify-content:center;
 }
 .search-bar input {
     padding:10px;
@@ -58,6 +60,8 @@ header {
     background-color: white;
     text-align: center;
     display: flex;
+    align-items: center;
+    position: sticky;
 }
 .recipe-grid {
     display: grid;
