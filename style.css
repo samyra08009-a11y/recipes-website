@@ -45,6 +45,7 @@ justify-content:center;
     border: 1px solid;
     background-color: lightgray;
     cursor: pointer;
+
 }
 
 .starting-page {
@@ -61,6 +62,7 @@ header {
     display: flex;
     align-items: center;
     position: sticky;
+    background-color: transparent;
 }
 #recipe-grid {
     display: grid;
@@ -75,6 +77,7 @@ header {
     margin: 6px;
     box-shadow: 0 2px 5px rgba(0 ,0 ,0 ,0.45);
     cursor: pointer;
+    background-color: transparent;
 }
 .popup {
     padding: 20px;
