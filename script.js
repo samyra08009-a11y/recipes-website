@@ -14,8 +14,8 @@ function searchButton() {
         );
     });
 };
-function openPopup(mealId) {
-fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`)
+function openPopup(mealID) {
+fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}`)
 .then (result => result.json())
 .then (data => {
     const recipe = data.meals[0];
