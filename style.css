@@ -13,12 +13,29 @@
 }
 html { background-image: url("https://cdn.pixabay.com/photo/2016/06/26/22/32/background-1481478_1280.jpg");
  } 
- #starter-page { margin: 0; font-family:Arial, Helvetica, sans-serif; background-color: cadetblue; text-align:center; }
-.recipe-head { background-color:brown; } 
-h1 { font-size: 100px; color:black; text-align:center; } 
-p { font-size: 80px; color: black; text-align:center; } 
-.btn { font-size: 50px; text-decoration-color: red; }
-title{ font-size: 50px; } 
+ #starter-page { 
+    margin: 0; 
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color: cadetblue; 
+    text-align:center; }
+.recipe-head { 
+    background-color:brown; } 
+h1 { 
+    font-size: 100px; 
+    color:black; 
+    text-align:center; } 
+p { 
+    font-size: 80px; 
+    color: black; 
+    text-align:center; 
+} 
+.btn { 
+    font-size: 50px; 
+    text-decoration-color: red; 
+}
+title{ 
+    font-size: 50px; 
+} 
 .search-bar { 
     padding: 10px; 
     gap: 8px;
@@ -54,7 +71,8 @@ header {
     grid-template-columns: 
     repeat(auto-fill, minmax(180px, 1fr)); 
     gap: 20px; 
-    padding: 20px; } 
+    padding: 20px;
+max-width: 1200px; } 
 .recipe-finder { 
     display: flex; 
     text-align: center; 
@@ -81,3 +99,8 @@ header {
     cursor: pointer; 
     font-size: 30px; 
     color: white; }
+#popup-img {
+    height: 170px;
+    width: 100%;
+    display: block;
+}
