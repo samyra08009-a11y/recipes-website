@@ -2,16 +2,22 @@
     background: white;
     padding: 45px;
     border-radius:20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 5px rgba(132, 17, 17, 0.4);
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
+}
+#popup-content {
+    overflow-y: auto;
+    color: white;
+    padding: 15px;
 }
 
 .recipe-card:hover {
     transform: scale(1.05);
 }
-html { background-image: url("https://cdn.pixabay.com/photo/2016/06/26/22/32/background-1481478_1280.jpg");
+html {
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/26/22/32/background-1481478_1280.jpg");
  } 
  #starter-page { 
     margin: 0; 
@@ -118,8 +124,10 @@ max-width: 1200px; }
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
-    background-color: rgba(0 ,0 ,0 ,0.8);
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
     padding: 30px;
     border-radius: 10px;
+    z-index: 999;
 
 }
