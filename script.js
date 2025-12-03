@@ -23,7 +23,16 @@ fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealID}`)
     document.getElementById("popup-instructions").textContent = recipe.strInstructions;
     document.getElementById("popup-box").style.display = "flex";
     document.getElementById("popup-img").src = recipe.strMealThumb;
-})
+    document.getElementById("popup-content").textContent = "";
+for (let i = 1; i <= 20; i++) {
+    const ingredient = recipe[`strIngredient${i}`];
+    const measure = recipe[`strMeasure${i}`];
+    if (ingredient && ingredient.trim() !== "")
+        document.getElementById("popup-content").innerHTML += `<p>${measure} ${ingredient}</p>`;
+    }
+
+
+});
 }
 function closePopup() {
     document.getElementById("popup-box").style.display = "none";
