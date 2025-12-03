@@ -7,13 +7,11 @@ border-radius:15px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
     gap: 20px; 
     padding: 20px;
 }
-
-
 
 #recipe-grid:hover {
     transform: scale(1.05);
@@ -30,12 +28,8 @@ html {
 h1 { 
     font-size: 100px; 
     color:black; 
-    text-align:center; } 
-    p5 {
-        font-size: 80px;
-        color: black;
-        text-align: center;
-    }
+    text-align:center;
+}
 p { 
     font-size: 15px; 
     color: black; 
