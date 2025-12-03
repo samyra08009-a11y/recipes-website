@@ -112,9 +112,8 @@ header {
     color: black; }
 #popup-img {
     height: auto;
-    width: 100%;
-border-radius: 10px;
-margin-bottom: 20px;
+    width:50%;
+    border-radius: 10px;
 
 }
 #popup-box {
@@ -128,7 +127,6 @@ margin-bottom: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 10px;
-    overflow: hidden;
 
 }
 
