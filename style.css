@@ -4,13 +4,13 @@
 border-radius:15px;
     box-shadow: 0 2px 5px rgba(132, 17, 17, 0.4);
     justify-content: center;
+    text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
     gap: 20px; 
     padding: 20px;
-    z-index: 9999;
 }
 
 
