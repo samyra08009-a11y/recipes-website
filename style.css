@@ -1,16 +1,15 @@
 #recipe-grid {
     background: white;
     padding: 45px;
-    border-radius:20px;
+border-radius:15px;
     box-shadow: 0 2px 5px rgba(132, 17, 17, 0.4);
-    text-align: center;
+    justify-content: center;
     cursor: pointer;
     transition: transform 0.2s;
-    display: grid; 
-    grid-template-columns: 
-    repeat(auto-fill, minmax(180px, 1fr)); 
+    display: none;  
     gap: 20px; 
     padding: 20px;
+    z-index: 9999;
 }
 #popup-content {
     overflow-y: auto;
@@ -121,11 +120,11 @@ header {
     height:100%;
     top: 0;
     left: 0;
-    position: fixed;
+    position: relative;
     background: white;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 10px;
-    z-index: 999;
+    z-index: 9999;
 
 }
