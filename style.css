@@ -11,14 +11,8 @@ border-radius:15px;
     padding: 20px;
     z-index: 9999;
 }
-#popup-content {
-    overflow-y: auto;
-    color: white;
-    padding: 15px;
-    position: relative;
-    max-height: 90vh;
-    max-width: 300px;
-}
+
+
 
 #recipe-grid:hover {
     transform: scale(1.05);
@@ -110,9 +104,11 @@ header {
     font-size: 30px; 
     color: black; }
 #popup-img {
-    height: 30px;
-    width: 50%;
-    display: grid;
+    height: auto;
+    width: 100%;
+border-radius: 10px;
+margin-bottom: 20px;
+
 }
 #popup-box {
     display: none;
@@ -125,6 +121,14 @@ header {
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 10px;
-    z-index: 9999;
+    overflow: hidden;
+
+}
+#popup-instructions {
+    overflow-y: auto;
+    text-align: center;
+    padding:15px;
+    max-height: 70vh;
+    font-size:18px;
 
 }
