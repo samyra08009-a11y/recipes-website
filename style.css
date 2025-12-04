@@ -1,11 +1,12 @@
 #recipe-grid {
     background: white;
-    padding: 45px;
+    padding: 15px;
     cursor: pointer;
     transition: transform 0.2s;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
     gap: 20px; 
+    position: relative;
 }
 
 #recipe-grid:hover {
@@ -89,7 +90,8 @@ header {
       height:100%; 
       position: fixed;
       top: 0;
-      left:0; 
+      left:0;
+      text-align: center; 
       justify-items: center; 
       align-items:center; } 
 .close-btn { 
@@ -103,19 +105,25 @@ header {
     height: 30vh;
     width:50%;
     margin-bottom: 20px;
-}
-#popup-box {
-    display: none;
-    width: 80%;
-    height:30vh;
+    position: fixed;
     top: 0;
     left: 0;
-    position: relative;
-    background: white;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    padding: 20px;
+    object-fit: cover;
+    background-color: white;
+
+}
+#popup-box {
+    color: white;
+    font-size:20px;
+    display: none;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    background-color: rgba(0 ,0 ,0 ,0.8);
+    padding: 30px;
     border-radius: 10px;
-    z-index: 9999;
 }
 #popup-content {
     overflow-y : auto;
