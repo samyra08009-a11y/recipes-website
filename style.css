@@ -14,7 +14,7 @@
 }
 
 html {
-    background-image: url("https://images.pexels.com/photos/9260830/pexels-photo-9260830.jpeg");
+    background-image: url("https://www.canva.com/templates/EAFJWmENjdY-pink-cute-watermelon-pattern-phone-wallpaper/");
  } 
  #starter-page { 
     margin: 0; 
@@ -107,18 +107,17 @@ header {
     color: black; 
 }
 #popup-img {
-    height: 40px;
+    height: 40vh;
     width:80%;
     margin-bottom: 20px;
     position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
-    background-color: white;
+    background-color: pink;
 
 }
 #popup-box {
-    color: white;
     font-size:20px;
     display: none;
     width: 80%;
@@ -126,10 +125,10 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     position: fixed;
-    background-color: whitesmoke;
+    background-color: pink;
     padding: 30px;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: Snell Roundhand, cursive;
 }
 #popup-content {
     overflow-y : auto;
