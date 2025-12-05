@@ -80,7 +80,7 @@ header {
     font-family: Snell Roundhand, cursive;
 } 
 .recipe-finder { 
-    display: flex; 
+    display: grid;; 
     text-align: center; 
     margin: 6px; 
     box-shadow: 0 2px 5px rgba(0 ,0 ,0 ,0.45);
@@ -107,7 +107,7 @@ header {
     color: black; 
 }
 #popup-img {
-    height: 40vh;
+    height: 30vh;
     width:80%;
     margin-bottom: 20px;
     position: fixed;
@@ -140,7 +140,7 @@ header {
     background-color: pink;
 }
 #popup-instructions {
-    font-size: 40px;
+    font-size: 30px;
     overflow-y: auto;
     max-height: 40vh;
 }
